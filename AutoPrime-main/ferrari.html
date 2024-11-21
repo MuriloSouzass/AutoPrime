@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari 458 Itália</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        body {
+            background-color: black;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+            margin: 10px 15px;
+        }
+
+        a {
+            position: relative;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #a0a0a0;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            padding: 0 10px;
+        }
+
+        a:after {
+            content: "";
+            position: absolute;
+            background-color: #fff;
+            height: 3px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        a:hover:after {
+            width: 100%;
+        }
+
+        .conteudo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        div.video video {
+            position: relative;
+            top: 15px;
+            width: 800px;
+   
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .ficha {
+            background-color: #1c1c1c7a;
+            width: 400px;
+            height: 500px;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            font-size: 16pt;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+        .preco {
+            background-color: #1c1c1c7a;
+            color: white;
+            width: 260px;
+            height: 120px;
+            border-radius: 10px;
+            padding: 15px;
+            font-size: 16pt;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .buy {
+            background-color: #5858f5;
+            padding: 13px;
+            width: 120px;
+            margin-top: 15px;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            border: 1px solid #5858f5;
+            transition: 0.3s;
+        }
+
+        .buy:hover {
+            border: 1px solid #7575fa;
+            background-color: #3f3fac;
+        }
+    </style>
+</head>
+<body>
+        <nav>
+            <a href="index.html">Início</a></li>
+            <a href="home.html">Comprar</a></li>
+            <a href="contato.html">Contate-nos</a></li>
+        </nav>
+
+    <div class="conteudo">
+        <div class="video">
+            <video src="videos/Ferrari 458 Spider - Official video.mp4" autoplay loop muted></video>
+        </div>
+        <div class="preco">
+            <h1>R$ 2.540.374</h1>
+            <button class="buy">Comprar</button>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="ficha">
+            <h1>Ficha Técnica</h1>
+            <p>A 458 Italia possui motor de 4,5 litros e 8 cilindros em V. Mais potente que a F430, lançada em 2004, a 458 Italia gera 570 cavalos de potência a 9.000 rpm e torque de 55 kgfm a 6.000 rpm. Com esse propulsor, que tem injeção direta e é totalmente feito em alumínio, a máquina italiana acelera de 0 a 100 km/h em 3,4 segundos e atinge velocidade máxima de 325 km/h. A 458 Italia conta ainda com transmissão de dupla embreagem e sete velocidades, chamada de F1 Dual Clutch Gearbox, que permite troca de velocidades a cada 0,06 segundos.</p>
+        </div>
+    </div>
+</body>
+</html>
