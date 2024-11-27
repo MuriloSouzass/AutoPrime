@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#navigation {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.browser {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    margin-top: 4px;
+
+}
+
+.browser:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.browser:hover {
+    color: #ffffff;
+}
+
+.browser:hover:after {
+    width: 100%;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+div.video video {
+    position: relative;
+    top: 15px;
+    width: 800px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 40px;
+}
+
+.ficha {
+    background-color: #1c1c1c7a;
+    width: 400px;
+    height: 430px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.116);
+
+}
+
+.preco {
+    background-color: #1c1c1c7a;
+    color: white;
+    width: 260px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.116);
+
+}
+
+.buy {
+    background-color: #5858f5;
+    padding: 13px;
+    width: 120px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    border: 1px solid #5858f5;
+    transition: 0.3s;
+}
+
+.buy:hover {
+    border: 1px solid #7575fa;
+    background-color: #3f3fac;
+}
