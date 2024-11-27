@@ -1,0 +1,235 @@
+/* Responsividade */
+
+@media (max-width: 450px) {
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo .video video {
+        height: 350px;
+        width: 400px;
+    }
+
+    .conteudo .preco {
+        margin-bottom: 50px;
+    }
+
+    #navigation {
+        justify-content: center;
+    }
+
+    .car-name1 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn1 {
+        position: absolute;
+        top: 45%;
+        left: 36%;
+    }
+
+    .car-name2 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn2 {
+        position: absolute;
+        top: 45%;
+        left: 36%;
+    }
+
+    .car-name3 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn3 {
+        position: absolute;
+        top: 47%;
+        left: 35%;
+    }
+
+    .car-name4 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn4 {
+        position: absolute;
+        top: 43%;
+        left: 35%;
+    }
+
+    .car-name5 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn5 {
+        position: absolute;
+        top: 45%;
+        left: 35%;
+    }
+
+    section .box  {
+        position: relative;
+        top: 20%;
+        left: 30%;
+    }
+
+    section .box .conteudo {
+        position: relative;
+        right: 35%;
+    }
+
+    .about {
+        margin-left: 15%;
+    }
+
+    .fabrica img {
+        display: none;
+    }
+
+    .input-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .car-name1 {
+        position: absolute;
+        top: 35%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn1 {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+
+    .car-name2 {
+        position: absolute;
+        top: 35%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn2 {
+        position: absolute;
+        top: 43%;
+        left: 40%;
+    }
+
+    .car-name3 {
+        position: absolute;
+        top: 35%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn3 {
+        position: absolute;
+        top: 43%;
+        left: 40%;
+    }
+
+    .car-name4 {
+        position: absolute;
+        top: 35%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn4 {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+
+    .car-name5 {
+        position: absolute;
+        top: 35%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+    }
+
+    #btn5 {
+        position: absolute;
+        top: 43%;
+        left: 40%;
+    }
+
+    .about {
+        margin-left: 30%;
+        height: 50%;
+    }
+
+    .about p {
+        margin-top: 80px;
+    }
+
+    .fabrica img {
+        display: none;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 15pt;
+    }
+}
+
+@media (min-width: 1366px) {
+    #btn-inicio1 {
+        margin-top: 16px;
+    }
+
+    .ficha {
+        height: 450px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    section .box  {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }
+
+    section .box .conteudo {
+        font-size: 45px;
+        position: relative;
+        right: 35px;
+    }
+
+    section .botoes {
+        position: relative;
+        right: 10%;
+    }
+
+    .about {
+        height: 45%;
+    }
+
+    #btn-inicio1 {
+        margin-top: 16px;
+    }
+}
